@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #131921;;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.adver-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270vh;
+    direction: rtl;
+}
+.adver-cont-item{
+    padding: 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #252f3d;
+    width: 80vw;
+    /* height: 270vh; */
+    border-radius: 30px;
+}
+
+.back,.icon-back{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.part-add-adver{
+    text-align: center;
+    font-size: 40px;
+}
+.back-icon{
+    padding-bottom: 35px;
+    border-bottom:1px solid white;
+}
+.back:active,.icon-back:active{
+    color: rgb(202, 202, 202);
+    border: 1px solid white;
+}
+.back:active,.icon-back:active{
+    color: rgb(202, 202, 202);
+}
+.select-add-adver{
+    width: 55%;
+    font-size: 25px;
+    background-color: #181f29;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2px;
+}
+.select-add-adver1{
+    margin: 10px 0;
+}
+.add-adver-pr{
+    padding: 15px 0;
+    font-size: 25px;
+}
+[type="radio"],[type="checkbox"]{
+    margin-right: 20px;
+    font-size: 18px;
+}
+.add-adver-span{
+    font-size: 18px;
+}
+.add-adver-price,.add-adver-number{
+    width: 25%;
+}
+.add-adver-textarea{
+    width: 80%;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.advertsi-button{
+    margin: auto;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 10px;
+    color: #febd69;
+    background-color: #1d2531;
+    cursor: pointer;
+}
+
+.advertsi-button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+.advertsi-button:active{
+    background-color: #161c25;
+    border: 1px solid rgb(175, 175, 175);
+}
+/* تعديلات */
+.motfily-pag{
+    font-size: 21px;
+    text-align: center;
+}
+@media  (max-width: 600px){
+    .select-add-adver{
+        width: 80%;
+    }
+    .adver-cont{
+        height: 190vh;
+    }
+    
+}

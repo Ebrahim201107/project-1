@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #131921;;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.adver-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    direction: rtl;
+}
+.adver-cont-item{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #252f3d;
+    width: 80vw;
+    height: 100vh;
+    border-radius: 30px;
+}
+.add-adver1-a{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-decoration: none;
+}
+.icon-addver{
+
+    font-size: 28px;
+}
+.back,.icon-back{
+    font-size: 30px;
+    cursor: pointer;
+}
+.back:active,.icon-back:active{
+    color: rgb(202, 202, 202);
+    border: 1px solid white;
+}
+.part-add-adver{
+    text-align: center;
+    font-size: 40px;
+}
+.add-adver1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-adver1:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.back:active,.icon-back:active{
+    color: rgb(202, 202, 202);
+}
+.add-adver1:active .add-adver1-a,.icon-addver,.add-adver1:active{
+    color: rgb(202, 202, 202);
+}
+
+@media  (max-width: 600px){
+    .add-adver1{
+        width: 80%;
+    }
+}

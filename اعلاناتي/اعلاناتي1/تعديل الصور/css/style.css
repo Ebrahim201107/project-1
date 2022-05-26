@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #131921;;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.adver-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    direction: rtl;
+}
+.adver-cont-item{
+    padding: 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #252f3d;
+    width: 70vw;
+    margin-top: 10px;
+    /* height: 270vh; */
+    border-radius: 30px;
+}
+
+.back,.icon-back{
+    font-size: 30px;
+    cursor: pointer;
+}
+.back-icon{
+    padding-bottom: 35px;
+    border-bottom:1px solid rgb(153, 153, 153);
+}
+
+.back:active,.icon-back:active{
+    color: rgb(202, 202, 202);
+    border: 1px solid white;
+}
+.add-adver-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+.divadd-adver-img-1{
+    margin-top: 20px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.add-adver-img-bton{
+    padding: 10px;
+    /* font-size: 18px; */
+    border-radius: 10px;
+    border: 0;
+    display: block;
+    margin: auto;
+    background-color: #131921;
+    color: #febd69;
+    cursor: pointer;
+}
+.add-adver-img-bton:hover{
+    border: 1px solid white;
+}
+.add-adver-img-bton:active{
+    background-color: #161c25;
+    border: 1px solid rgb(175, 175, 175);
+}
+/* تعديل */
+.back-icon-1{
+    margin-top: 5px;
+    border: 0;
+}
+.motfily-pag{
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media  (max-width: 600px){
+    .select-add-adver{
+        width: 70%;
+    }
+    .add-adver-img{
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .divadd-adver-img-1{
+        height:100px;
+    }
+}
